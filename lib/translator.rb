@@ -35,6 +35,9 @@ def get_japanese_emoticon(path, emoticon)
   new = {}
   
   hash.each do |k, v|
-  new[]
+  new[v[:english]] = v[:japanese]
+  end 
   
+  translate = new[emoticon]
+  translate
 end
