@@ -15,13 +15,14 @@ end
 
 def get_english_meaning(path, emoticon)
   hash = load_library(path)
-  meaning = {} 
+  new = {} 
   
   hash.each do |k, v| 
-    meaning[v[:japanese]] = k 
+    new[v[:japanese]] = k 
   end 
   
-  meaning[emoticon]
+  meaning = new[emoticon]
+  
 end 
 
 def get_japanese_emoticon(path, emoticon)
