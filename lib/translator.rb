@@ -22,7 +22,8 @@ def get_english_meaning(path, emoticon)
   end 
   
   meaning = new[emoticon]
-  if meaning == 
+  if meaning == nil
+    
 end 
 
 def get_japanese_emoticon(path, emoticon)
