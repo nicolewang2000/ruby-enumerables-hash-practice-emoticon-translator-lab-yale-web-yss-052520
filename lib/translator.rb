@@ -19,9 +19,10 @@ def get_english_meaning(path, emoticon)
   hash.each do |k, v| 
     if v[:japanese] == emoticon  
     print hash.index(v)
-  end 
+    end 
 end
 
+end 
 
 def get_japanese_emoticon(path, emoticon)
   hash = load_library(path)
