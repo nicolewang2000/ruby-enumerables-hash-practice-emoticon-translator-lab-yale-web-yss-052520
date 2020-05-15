@@ -32,6 +32,9 @@ end
 
 def get_japanese_emoticon(path, emoticon)
   hash = load_library(path)
+  new = {}
   
+  hash.each do |k, v|
+  new[]
   
 end
