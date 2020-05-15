@@ -20,7 +20,7 @@ def get_english_meaning(path, emoticon)
   hash.each do |k, v| 
     meaning[v][:japanese] = k 
   end 
-  
+  print meaning
 
 end 
 
