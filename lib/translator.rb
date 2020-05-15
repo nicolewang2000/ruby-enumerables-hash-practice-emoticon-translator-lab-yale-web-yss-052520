@@ -21,7 +21,7 @@ def get_english_meaning(path, emoticon)
     meaning[v[:japanese]] = k 
   end 
   
-  print meaning[emoticon]
+   meaning[emoticon]
 
 end 
 
