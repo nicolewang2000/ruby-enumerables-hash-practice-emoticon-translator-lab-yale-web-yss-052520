@@ -43,5 +43,5 @@ def get_japanese_emoticon(path, emoticon)
     translate = "Sorry, that emoticon was not found"
   end 
   translate
-end 
+  
 end
