@@ -13,6 +13,7 @@ def load_library(path)
   new
 end
 
+
 def get_english_meaning(path, emoticon)
   hash = load_library(path)
   new = {} 
@@ -27,6 +28,7 @@ def get_english_meaning(path, emoticon)
   end 
   meaning
 end 
+
 
 def get_japanese_emoticon(path, emoticon)
   hash = load_library(path)
